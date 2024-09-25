@@ -1,6 +1,5 @@
 #include<simplecpp>
 #include<vector>
-//#include "basic_elements.h"
 
 #ifndef BLOCKS_H
 #define BLOCKS_H
@@ -23,8 +22,6 @@ struct Block{
     int getY();
     Point getCenter();
     void move(int a, int b);
-
-
 };
 
 struct Orientation{
