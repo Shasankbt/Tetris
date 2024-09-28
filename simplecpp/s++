@@ -1,0 +1,2 @@
+#!/bin/sh -x
+g++ $@ -Wall /home/shasankbt/01-my-codes/Projects/games/Tetris/simplecpp/lib/libsprite.a -I/home/shasankbt/01-my-codes/Projects/games/Tetris/simplecpp/include -I/usr/include/X11 -L/usr/X11R6/lib -lX11 -std=c++11

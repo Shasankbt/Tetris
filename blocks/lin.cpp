@@ -1,6 +1,6 @@
-#include<iostream>
+// #include <iostream>
+
 #include "blocks.h"
-    
     lin::lin(){
         pivot = Point(275, 125);
         for(int i = 0; i<4; i++) part[i] = Block(300, 50+50*i,  50, 50, "orange");        
